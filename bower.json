@@ -1,9 +1,10 @@
 {
-  "name": "angular-visjs",
+  "name": "angular-vis",
   "version": "4.0.2",
-  "homepage": "https://github.com/visjs/angular-visjs",
+  "homepage": "https://github.com/lbthomsen/angular-vis",
   "authors": [
-    "Chris Jackson <chris@cd-jackson.com>"
+    "Chris Jackson <chris@cd-jackson.com>", 
+    "Lars Boegild Thomsen <lth@bright-things.com>"
   ],
   "description": "AngularJS directives for the VisJS visualisation library",
   "keywords": [
@@ -20,11 +21,11 @@
     "tests"
   ],
   "resolutions": {
-    "vis": "~4.2.0",
-    "angular": "~1.3.8"
+    "vis": "~4.12.0",
+    "angular": "~1.5.0"
   },
   "dependencies": {
-    "angular": "~1.3.15",
-    "vis": "~4.2.0"
+    "angular": "~1.5.0",
+    "vis": "~4.12.0"
   }
 }
