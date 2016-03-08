@@ -30,7 +30,8 @@ angular.module('ngVis', [])
                     'select',
                     'doubleClick',
                     'click',
-                    'contextmenu'
+                    'contextmenu', 
+                    'currentTimeTick'
                 ];
 
                 // Declare the timeline
@@ -223,3 +224,5 @@ angular.module('ngVis', [])
         };
     })
 ;
+
+// vim: ts=4 et nowrap autoindent
